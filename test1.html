@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data From JSON</title>
+    
+</head>
+<body>
+    <h3>109年台南市流感疫苗接種合約醫療院所名單</h3>
+    <hr>
+    <script>
+    // 1.設一個變數把API的URL存起來
+    var dataUrl= "https://soa.tainan.gov.tw/Api/Service/Get/2fa22dd0-90ce-4aaa-8618-43c784fa6afa";
+    
+    // 2.new一個XMLHttpRequest物件(以此物件的方法進行資料請求) 
+    var xhr = new XMLHttpRequest()
+
+    // 3.以GET方法開啟一個請求
+    //open('Method',API的URL,預設值為true非同步進行)
+    xhr.open('GET',dataUrl, true)
+
+
+    // 4.送出請求(若為GET參數不填或填null)
+    xhr.send() 
+
+    // 5-1 或直接用 onload => 資料接收/送出成功後執行的function
+    xhr.onload = function () {
+        var data = JSON.parse(this.responseText);
+        console.log(data);
+    }
+
+    </script>
+</body>
+</html>
