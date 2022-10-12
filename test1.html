@@ -5,66 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data From JSON</title>
+    
 </head>
 <body>
+    <h3>109年台南市流感疫苗接種合約醫療院所名單</h3>
+    <hr>
     <script>
-        var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
-        var request = new XMLHttpRequest();
-        request.open('GET', requestURL);
-        request.responseType = 'json';
-        request.send();
+    // 1.設一個變數把API的URL存起來
+    var dataUrl= "https://soa.tainan.gov.tw/Api/Service/Get/2fa22dd0-90ce-4aaa-8618-43c784fa6afa";
+    
+    // 2.new一個XMLHttpRequest物件(以此物件的方法進行資料請求) 
+    var xhr = new XMLHttpRequest()
 
-        request.onload = function() {
-        var superHeroes = request.response;
-        populateHeader(superHeroes);
-        showHeroes(superHeroes);
-        }
+    // 3.以GET方法開啟一個請求
+    //open('Method',API的URL,預設值為true非同步進行)
+    xhr.open('GET',dataUrl, true)
 
-        function populateHeader(jsonObj) {
-        var myH1 = document.createElement('h1');
-        myH1.textContent = jsonObj['squadName'];
-        header.appendChild(myH1);
 
-        var myPara = document.createElement('p');
-        myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-        header.appendChild(myPara);
-        
-        }
+    // 4.送出請求(若為GET參數不填或填null)
+    xhr.send() 
 
-        function showHeroes(jsonObj) {
-  var heroes = jsonObj['members'];
-
-  for(i = 0; i < heroes.length; i++) {
-    var myArticle = document.createElement('article');
-    var myH2 = document.createElement('h2');
-    var myPara1 = document.createElement('p');
-    var myPara2 = document.createElement('p');
-    var myPara3 = document.createElement('p');
-    var myList = document.createElement('ul');
-
-    myH2.textContent = heroes[i].name;
-    myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-    myPara2.textContent = 'Age: ' + heroes[i].age;
-    myPara3.textContent = 'Superpowers:';
-
-    var superPowers = heroes[i].powers;
-    for(j = 0; j < superPowers.length; j++) {
-      var listItem = document.createElement('li');
-      listItem.textContent = superPowers[j];
-      myList.appendChild(listItem);
+    // 5-1 或直接用 onload => 資料接收/送出成功後執行的function
+    xhr.onload = function () {
+        var data = JSON.parse(this.responseText);
+        console.log(data);
     }
-
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-    myArticle.appendChild(myList);
-
-    section.appendChild(myArticle);
-  }
-}
-
-
 
     </script>
 </body>
