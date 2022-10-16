@@ -1,0 +1,513 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "晴明",
+        "Properties": "明目、去風",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+      },
+      {
+        "id": 2,
+        "name": "攅竹",
+        "Properties": "明目、去風、泄熱",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+      
+      },
+      {
+        "id": 3,
+        "name": "眉衝",
+        "Properties": "通竅、醒神、去風",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+      },
+      {
+        "id": 4,
+        "name": "曲差",
+        "Properties": "明目、去風",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 5,
+        "name": "五處",
+        "Properties": "通竅、去風、清神",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 6,
+        "name": "承光",
+        "Properties": "明目、去風、清神",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 7,
+        "name": "通天",
+        "Properties": "通竅、去風、清神",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 8,
+        "name": "絡却",
+        "Properties": "去風、清頭目",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 9,
+        "name": "玉枕",
+        "Properties": "清頭目、開鼻竅",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 10,
+        "name": "天柱",
+        "Properties": "清熱、清頭目、疏風開表",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 11,
+        "name": "大杼",
+        "Properties": "清熱散風、降逆舒筋",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 12,
+        "name": "風門",
+        "Properties": "去風、清熱、平喘",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 13,
+        "name": "肺俞",
+        "Properties": "宣肺、平喘、利氣",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 14,
+        "name": "心俞",
+        "Properties": "疏通心絡、調理氣血、寧心安神",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 15,
+        "name": "督俞",
+        "Properties": "寬胸、利氣、降逆",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 16,
+        "name": "膈俞",
+        "Properties": "和血理血、和胃寬胸",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 17,
+        "name": "肝俞",
+        "Properties": "疏肝利膽、清頭明目",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 18,
+        "name": "膽俞",
+        "Properties": "清肝利膽、利氣清熱",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 19,
+        "name": "脾俞",
+        "Properties": "健脾化濕",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 20,
+        "name": "胃俞",
+        "Properties": "健脾胃、消積滯、和胃降逆",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 21,
+        "name": "三焦俞",
+        "Properties": "調三焦、利水道",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 22,
+        "name": "腎俞",
+        "Properties": "補益腎氣、利腰脊",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 23,
+        "name": "氣海俞",
+        "Properties": "調氣血、健腰脊",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id":24,
+        "name": "大腸俞",
+        "Properties": "調腸腑、利腰腿",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 25,
+        "name": "關元俞",
+        "Properties": "狀腰培元、通利小便",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 26,
+        "name": "小腸俞",
+        "Properties": "調腸腑、清熱利",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 27,
+        "name": "膀胱俞",
+        "Properties": "強腰脊、調膀胱",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 28,
+        "name": "中膂ㄌㄩˇ俞",
+        "Properties": "健腰、止瀉",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 29,
+        "name": "白環俞",
+        "Properties": "健腰腿、利濕熱",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 30,
+        "name": "會陽",
+        "Properties": "調理下焦",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },
+      {
+        "id": 31,
+        "name": "承扶",
+        "Properties": "利腰腿、消痣、止瀉",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 32,
+        "name": "合陽",
+        "Properties": "利腰腿、調下焦、止漏泄",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 33,
+        "name": "承肌",
+        "Properties": "舒筋骨、利腰腿",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 34,
+        "name": "承山",
+        "Properties": "舒筋骨、利腰腿、理腸療痔",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 35,
+        "name": "飛揚",
+        "Properties": "疏筋通絡",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 36,
+        "name": "付陽",
+        "Properties": "利腰腿、清頭目",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 37,
+        "name": "崑崙",
+        "Properties": "利腰腿、舒筋、降氣逆、清頭目",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 38,
+        "name": "僕參",
+        "Properties": "利腰腿、舒筋",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 39,
+        "name": "申脈",
+        "Properties": "利腰腿、舒筋",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 40,
+        "name": "金門",
+        "Properties": "舒筋、清神開竅",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 41,
+        "name": "京骨",
+        "Properties": "去風熱、利項背",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 42,
+        "name": "束骨",
+        "Properties": "去風熱、利項背",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 43,
+        "name": "足通谷",
+        "Properties": "去風熱、利項背",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 44,
+        "name": "至陰",
+        "Properties": "去風熱、順胎產",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 45,
+        "name": "天池",
+        "Properties": "開胸、清肺、止咳、平喘",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 46,
+        "name": "天泉",
+        "Properties": "開胸利氣、活血通脈",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 47,
+        "name": "曲澤",
+        "Properties": "清營活血、降逆止嘔",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 48,
+        "name": "間使",
+        "Properties": "寧心安神、通經活絡、和胃去痰",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 49,
+        "name": "內關",
+        "Properties": "寧心安神、鎮靜止痛、理氣和胃",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 50,
+        "name": "大陵",
+        "Properties": "清心寧神、和胃寬胸",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 51,
+        "name": "勞宮",
+        "Properties": "清心瀉熱、安神涼血、和胃",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 52,
+        "name": "中衝",
+        "Properties": "開竅蘇厥、清心退熱",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 53,
+        "name": "關衝",
+        "Properties": "清熱、開竅、利喉舌",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 54,
+        "name": "液門",
+        "Properties": "清頭明目、利三焦",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 55,
+        "name": "陽池",
+        "Properties": "疏風散熱、舒筋活絡",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id" :56,
+        "name": "外關",
+        "Properties": "疏風清熱、利脇",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 57,
+        "name": "會宗",
+        "Properties": "清熱開鬱、疏通經氣",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 58,
+        "name": "三陽絡",
+        "Properties": "開竅鎮痛、宣通氣血",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 59,
+        "name": "四瀆",
+        "Properties": "清咽喉、通耳竅",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      },  {
+        "id": 60,
+        "name": "天井",
+        "Properties": "疏風清熱、通絡止痛",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "alive": true
+    
+      }
+    ]
+  }
